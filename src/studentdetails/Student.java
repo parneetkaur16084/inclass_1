@@ -11,6 +11,7 @@ package studentdetails;
 public class Student {
     private String name;
     private int age;
+    private int grade;
 
     /**
      * @return the name
@@ -38,5 +39,19 @@ public class Student {
      */
     public void setAge(int age) {
         this.age = age;
+    }
+
+    /**
+     * @return the grade
+     */
+    public int getGrade() {
+        return grade;
+    }
+
+    /**
+     * @param grade the grade to set
+     */
+    public void setGrade(int grade) {
+        this.grade = grade;
     }
 }
